@@ -1,0 +1,1 @@
+web: gunicorn src.token_server.wsgi
