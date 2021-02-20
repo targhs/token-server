@@ -25,7 +25,7 @@ SECRET_KEY = "6(x*i@82e8i0w93o(0at$wt_5mib7)*8s3bf^mcv!5_b3l^%ub"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['targhs-token-server.herokuapp.com']
 
 
 # Application definition
