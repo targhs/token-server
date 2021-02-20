@@ -1,3 +1,2 @@
-release: python manage.py migrate
-config:set DISABLE_COLLECTSTATIC=1
+release: python src/manage.py migrate
 web: gunicorn src.token_server.wsgi
