@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn src.token_server.wsgi
+web: gunicorn token_server.wsgi
